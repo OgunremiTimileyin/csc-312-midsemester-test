@@ -1,0 +1,12 @@
+int main() {
+push(4);
+push(5);
+push(9);
+printf("Element at top of the stack: %d\n" ,peek());
+printf("Elements: \n");
+if(!isempty()) {
+int num = pop();
+printf("%d\n",num);
+}
+return 0;
+}
